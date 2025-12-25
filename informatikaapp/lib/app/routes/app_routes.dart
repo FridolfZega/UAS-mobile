@@ -91,6 +91,7 @@ abstract class Routes {
   static const LOCAL_STORAGE = _Paths.LOCAL_STORAGE;
   static const DEVICE_FEATURES = _Paths.DEVICE_FEATURES;
   static const STUDY_CASE = _Paths.STUDY_CASE;
+  static const APP_BAR = _Paths.MATERIAL_DESIGN + _Paths.APP_BAR;
 }
 
 abstract class _Paths {
@@ -170,4 +171,5 @@ abstract class _Paths {
   static const LOCAL_STORAGE = '/local-storage';
   static const DEVICE_FEATURES = '/device-features';
   static const STUDY_CASE = '/study-case';
+  static const APP_BAR = '/app-bar';
 }

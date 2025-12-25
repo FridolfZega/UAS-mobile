@@ -80,6 +80,8 @@ import '../modules/LayoutStructure/bindings/layout_structure_binding.dart';
 import '../modules/LayoutStructure/views/layout_structure_view.dart';
 import '../modules/LocalStorage/bindings/local_storage_binding.dart';
 import '../modules/LocalStorage/views/local_storage_view.dart';
+import '../modules/MaterialDesign/AppBar/bindings/app_bar_binding.dart';
+import '../modules/MaterialDesign/AppBar/views/app_bar_view.dart';
 import '../modules/MaterialDesign/BottomNavigationBar/bindings/bottom_navigation_bar_binding.dart';
 import '../modules/MaterialDesign/BottomNavigationBar/views/bottom_navigation_bar_view.dart';
 import '../modules/MaterialDesign/ButtonSheet/bindings/button_sheet_binding.dart';
@@ -293,6 +295,11 @@ class AppPages {
           name: _Paths.TAB_BAR_VIEW,
           page: () => const TabBarViewView(),
           binding: TabBarViewBinding(),
+        ),
+        GetPage(
+          name: _Paths.APP_BAR,
+          page: () => const AppBarView(),
+          binding: AppBarBinding(),
         ),
       ],
     ),
